@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brainard Website</title>
+  <style>
+    /* Reset default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background: rgba(0, 0, 0, 0.6);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #00ffcc;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: orange;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #00ffcc;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 15px;
+      color: #00ffcc;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 25px;
+      line-height: 1.5;
+    }
+
+    .hero .btn {
+      padding: 12px 25px;
+      font-size: 1em;
+      background: #00ffcc;
+      color: #000;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+
+    .hero .btn:hover {
+      background: white;
+      color: #000;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Brainard's Brand</div>
+      <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+ </ul>
+</nav>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hello, I’m Brainard 👋</h1>
+    <p>I’m a Web Designer & Virtual Assistant. I create beautiful, responsive websites and help businesses grow online.</p>
+    <!-- WhatsApp Hire Me Button -->
+<div style="margin-top:20px; text-align:center;">
+  <a href="https://wa.me/2347079080282?text=Hello%2C%20I%E2%80%99m%20interested%20in%20your%20services.%20Can%20you%20tell%20me%20more%3F" target="_blank">
+    <button style="background-color:#25D366; color:white; padding:12px 20px; border:none; border-radius:8px; font-size:16px; cursor:pointer;">
+      💬 Hire Me on WhatsApp
+    </button>
+  </a>
+</div>
+  </section>
+
+</body>
+</html>
