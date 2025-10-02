@@ -1,0 +1,17 @@
+backend:
+  name: github
+  repo: brainardomoregbe-hub/My-Webs
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "about.html"
+        fields:
+          - {label: "Content", name: "body", widget: "markdown"}
